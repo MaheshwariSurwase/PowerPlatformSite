@@ -1,7 +1,13 @@
 # Power Platform Solution 
 
-## Mega Menu Bar :-
+## Nav Bar :-
 ![1](https://github.com/MaheshwariSurwase/PowerPlatformSite/blob/main/Photos/menubar.png)
+
+## Mega Menu Bar :-
+![2]()
+
+
+
 
 
 
