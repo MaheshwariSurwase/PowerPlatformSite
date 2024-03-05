@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Platform Solutions</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+<body>
+    <div class="nav-bar">
+        <section>
+            <div class="nav-left">Products</div>
+            <div class="nav-left">Support</div>
+            <div class="nav-left">Partners</div>
+            <div class="nav-left" onclick="openMoreNav()">Menu
+                <i class="fas fa-chevron-down" ></i>
+            </div>
+        </section>
+        
+
+        <section style="justify-self: center; text-align: center">
+            <div class="nav-center">POWER PLATFORM SOLUTIONS</div>
+        </section>
+
+        <section id="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-user-alt"></i>
+            <i class="fas fa-globe" style="padding-right: 60px"></i>
+            <div id="nav-lang">
+                <div>GB</div>
+                <div>EN</div>
+            </div>
+        </section>
+        <div id="up-arrow"></div>
+    </div>
+    <!-- Nav bar end -->
+    <div class="more-nav" id="moreNav">
+        <section id="first-more-nav">
+            <p style="margin-top: 20px;" class="selectedFirstColumn" id="first-col-1" onclick="changeFirstCol(this)">
+                Training & Events
+
+            </p>
+            <p id="first-col-2" onclick="changeFirstCol(this)"">
+                Buy
+            </p>
+        </section>
+
+        <section id="second-more-nav">
+            <p style="margin-top: 20px;" class="selectedSecondColumn" id="second-col-1" onclick="changeSecondCol(this)">
+                Training 
+
+            </p>
+            <p id="second-col-2" onclick="changeSecondCol(this)"">Certifications</p>
+            <p id="second-col-3" onclick="changeSecondCol(this)"">Exams</p>
+            <p id="second-col-4" onclick="changeSecondCol(this)"">Training by Technology</p>
+            <p id="second-col-5" onclick="changeSecondCol(this)"">Events & Webinars</p>
+
+        </section>
+
+        <section id="third-more-nav">
+            <div class="third-nav-col">
+                <div class="third-nav-header">TRAINING</div>
+                <p>Sub 1</p>
+                <p>Sub 2</p>
+                <p>Sub 3</p>
+                <p>Sub 4</p>
+                <div class="third-nav-header">CERTIFICATES</div>
+                <p>Sub 1</p>
+                <p>Sub 2</p>
+                <p>Sub 3</p>
+                <p>Sub 4</p>
+            </div>
+            <div class="third-nav-col" style="margin-top: 40px">
+                <div class="third-nav-header">I NEED TO...</div>
+                <p>Sub 1</p>
+                <p>Sub 2</p>
+                <p>Sub 3</p>
+                <p>Sub 4</p>
+                <div class="third-nav-header">PARTNER TRAINING</div>
+                <p>Sub 1</p>
+                <p>Sub 2</p>
+                <p>Sub 3</p>
+                <p>Sub 4</p>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
